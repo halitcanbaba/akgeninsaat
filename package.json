@@ -1,0 +1,16 @@
+{
+  "name": "2",
+  "version": "1.0.0",
+  "description": "Akgen yapi insaat",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass assets/sass/main.scss assets/css/main.css -w",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepages": "https://halitcanbaba.github.io/akgeninsaat",
+  "dependencies": {
+    "gh-pages": "^2.3.0"
+  }
+}
