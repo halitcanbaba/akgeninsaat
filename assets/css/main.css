@@ -1354,12 +1354,16 @@ input[type="radio"] + label:before {
     position: relative;
     width: calc(100% + 6em); }
     .box .image.featured img {
-      border-radius: 0;
+      border-radius: 80%;
       display: block;
       width: 100%; }
       .box .image.featured img.boxed__img {
         height: 14em;
         object-fit: cover; }
+      .box .image.featured img.img__radius {
+        height: 14em;
+        object-fit: cover;
+        border-radius: 50%; }
     .box .image.featured:first-child {
       border-radius: 6px 6px 0 0;
       margin-bottom: 3em;

@@ -662,7 +662,12 @@
 						height: 14em;
 						object-fit: cover;
 					}
-					border-radius: 0;
+					&.img__radius{
+						height: 14em;
+						object-fit: cover;
+						border-radius: 50%;
+					}
+					border-radius: 80%;
 					display: block;
 					width: 100%;
 				}
